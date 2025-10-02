@@ -13,8 +13,6 @@ $message = '';
  */
 if (!$connexion) {
     die('Erreur de connexion' . mysqli_connect_error());
-} else {
-    echo 'Connexion établie';
 };
 
 //vérifie si on a appuyé sur le bouton "déjà inscrit ?"    
