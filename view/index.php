@@ -1,5 +1,10 @@
+<?php
+define('APP_NAME', 'Livre d\'Or');
+?>
+
 <nav>
     <ul>
+        <li><?php echo APP_NAME ?></li>
         <li><a href="index.php">Accueil</a></li>
         <li><a href="inscription.php">Inscription</a></li>
         <li><a href="connexion.php">Connexion</a></li>
